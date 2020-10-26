@@ -1,0 +1,21 @@
+body{background-color:rgb(186, 186, 186);}
+
+.titulo{font-size: 68px;
+text-align: center;
+font-style: cursive;}
+sup{font-size: 20px;}
+#hsmall{font-size: 8px;}
+#titulo2{text-align: center;}
+
+.navbar{color:  rgb(186, 186, 186);
+font-size: 35px ;
+text-align: center;
+}
+.navbar a:hover {
+background-color:rgb(79, 79, 79);
+color:rgb(186, 186, 186);
+}
+
+.pestanas{text-align: center;
+color: white;
+text-decoration: none;}
