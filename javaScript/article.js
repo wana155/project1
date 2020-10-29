@@ -30,7 +30,7 @@ for(i=0;i<articulos.length;i++){
     wrapperDive.setAttribute("class","wrapperDiv");
 
     var leftte = document.createElement('div');
-    leftte.innerText="Author: "+articulos[i].author;
+    leftte.innerText="By: "+articulos[i].author;
     leftte.setAttribute("class","leftt");
 
     var rightte = document.createElement('div');
