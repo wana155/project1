@@ -1,24 +1,29 @@
-body{background-color:rgb(186, 186, 186);}
+#main{background-color:rgb(186, 186, 186);
+font-family: serif;}
 
 .titulo{font-size: 68px;
 text-align: center;
 font-style: cursive;}
-sup{font-size: 20px;}
+#hsma{font-size:20px;}
 #hsmall{font-size: 8px;}
 #titulo2{text-align: center;}
 
-.navbar{color:  rgb(186, 186, 186);
+
+.navbarro{color:  rgb(186, 186, 186);
 font-size: 35px ;
 text-align: center;
+background-color:rgb(35, 40, 109)
 }
-.navbar a:hover {
-background-color:rgb(79, 79, 79);
-color:rgb(186, 186, 186);
+.navbarro a:hover {
+background-color:rgb(109, 42, 42);
+color:rgb(255, 255, 255);
+text-decoration: none;
 }
 
 .pestanas{text-align: center;
 color: white;
-text-decoration: none;}
+text-decoration: none;
+margin: 25px;}
 
 .forma{
     display: flex;
@@ -35,6 +40,11 @@ text-decoration: none;}
     0 12px 12px rgba(128, 128, 128, 0.35);
   
 }
+.forma:hover {
+    background-color:rgb(114, 114, 114);
+    color:rgb(0, 0, 0);
+    }
+
 .leftt{
     padding:14px;
     margin-left:1px;
@@ -53,3 +63,20 @@ text-decoration: none;}
 }
 iframe{padding: 5px 10px;
     margin-left: 4.4%; }
+
+    #one{
+        background-image: url("./images/image1.jpg");
+        background-color: #cccccc;
+        height: 600px;
+        max-width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+       }
+       .centerTitle{
+           padding-top: 330px;
+           padding-left: 100px;
+           padding-right: 30%;
+           color: black;
+           font-size: 1in;
+       }
