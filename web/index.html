@@ -30,13 +30,13 @@
         <div class="row" id="two" style="background-color: white;"> 
             <div style="width: 100%;">
                 <h1 class="centeredTitle">It's Easy For You!</h1>
-                <p class="simpleParagraph" style="color: black;">We strive to provide with anything you need. Learn and explore about us in this <a href="./articles.html">blog</a>. </p>
+                <p class="simpleParagraph" style="color: black;">We strive to provide with anything you need. Learn and explore about us in this <a href="./blogs.html">blog</a>. </p>
             </div>
             
             <div class="col-4"  > 
                 <img src="../images/image3.jpg" alt="Oranges" style="margin-left: 30%;">
                 <h2 style="margin-left:30% ; margin-top:.5cm ;" > Step 1: </h2> 
-                <p class="steps" style="margin-left:30% ;"> <a href="">Register</a> to create a free account. </p>
+                <p class="steps" style="margin-left:30% ;"> <a onclick="notNow()" href="#steps">Register</a> to create a free account. </p>
             </div>
             <div class="col-4">
                 <img src="../images/image4.jpg" alt="apples" id="centerimage">
@@ -63,5 +63,10 @@
             <h1 class="centeredTitle">At The Company... We Deliver High-Quality Images</h1>
          </div> 
     </div>
+    <script>
+        function notNow(){
+            alert("Sorry 😅, Registration is not available at the moment!")
+        }
+    </script>
 </body>
 </html>
