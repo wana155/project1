@@ -137,3 +137,19 @@ img{
        padding-left:5%;
        padding-right:15% ;
    }
+   #contenedores a{
+    background-color:rgb(255, 190, 190);
+   }
+   #contenedores a:hover {
+    background-color:rgb(255, 141, 141);
+    color:black;
+    }
+    #contenedores a.active {
+        background-color: rgb(250, 56, 56);
+        color : black;
+        border-color: rgb(247, 0, 0);
+        }
+#cuerpo{
+    overflow-y: scroll; 
+    height:900px;
+}
